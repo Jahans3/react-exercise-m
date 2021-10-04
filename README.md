@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# React Coding Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the React coding exercise, it's a basic Create React App template with an edited `App.tsx` file. Inside the file
+you will find a `mockApi` and an empty React component, the exercise involves using `mockApi` to fetch some data then 
+manipulating and displaying the data. There are TypeScript type definitions that you may find useful in `typings.d.ts`.
 
-## Available Scripts
+There are several tasks written in a comment at the top of `App.tsx`, the assignment is to complete these tasks as you
+would if it was a real work task. Don't worry about styling everything perfectly, this is primarily a React
+and TS/JS task.
 
-In the project directory, you can run:
+We would prefer the tasks be completed using React hooks, if you haven't used them before feel free to take some extra time
+to try them out and get used to the concept. There's a good introduction on the [React docs website](https://reactjs.org/docs/hooks-intro.html).
 
-### `yarn start`
+The task should be completed within an hour. If you haven't made it through all tasks in that time don't worry, just
+submit what you have so far. We are more interested in seeing quality code than lots of rushed code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Once you have completed the exercise, push your code to the forked repo on Github and email the link back to us so
+we can take a look.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Good luck!
 
-### `yarn test`
+### Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork this repo on Github, see [forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)
+2. Clone to repo to your machine, see [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)
+3. Open the project in the editor you're most comfortable with
+4. Install dependencies: `$ yarn`
+5. Run the project locally: `$ yarn start`
+    * This will open a browser tab and run the app on `localhost:3000`, the page will update when you make code changes
